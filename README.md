@@ -216,7 +216,7 @@ private static void runMultiThreaded() {
 Графика на времето от "Наивното" решение при четене на файл *25 MB*, машина "Home PC"
 (_фигура 1_):
 
-![фигура 1](.\img\ReadOneByOne_20_HomePC_times.png)
+![фигура 1](./img/ReadOneByOne_20_HomePC_times.png)
 
 ---
 
@@ -243,7 +243,7 @@ private static void runMultiThreaded() {
 Графика на времето от "Наивното" решение при четене на файл *100 MB*, машина "Home PC"
 (_фигура 2_):
 
-![фигура 2](.\img\ReadOneByOne_100_HomePC_times.png)
+![фигура 2](./img/ReadOneByOne_100_HomePC_times.png)
 
 ### 3.4 Анализ на получените резултати
 
@@ -327,7 +327,7 @@ private static void runMultiThreaded(String data) {
 Графика на времето от решение "Изчитане наведнъж" при четене на файл *100 MB*, машина "Home PC"
 (_фигура 3_):
 
-![фигура 3](.\img\ReadAllAtOnce_100_HomePC_times.png)
+![фигура 3](./img/ReadAllAtOnce_100_HomePC_times.png)
 
 ---
 Резултати от решение "Изчитане наведнъж" при четене на файл *300 MB*, машина "Home PC" (_таблица 4_):
@@ -354,12 +354,12 @@ private static void runMultiThreaded(String data) {
 Графика на времето от решение "Изчитане наведнъж" при четене на файл *300 MB*, машина "Home PC"
 (_фигура 4_):
 
-![фигура 4](.\img\ReadAllAtOnce_300_HomePC_times.png)
+![фигура 4](./img/ReadAllAtOnce_300_HomePC_times.png)
 
 Графика на ускорението от решение "Изчитане наведнъж" при четене на файл *300 MB*, машина "Home PC"
 (_фигура 5_):
 
-![фигура 5](.\img\ReadAllAtOnce_300_HomePC_sp.png)
+![фигура 5](./img/ReadAllAtOnce_300_HomePC_sp.png)
 
 ---
 Резултати от решение "Изчитане наведнъж" при четене на файл *500 MB*, машина "Home PC" (_таблица 5_):
@@ -380,12 +380,12 @@ private static void runMultiThreaded(String data) {
 Графика на времето от решение "Изчитане наведнъж" при четене на файл *500 MB*, машина "Home PC"
 (_фигура 6_):
 
-![фигура 6](.\img\ReadAllAtOnce_500_HomePC_times.png)
+![фигура 6](./img/ReadAllAtOnce_500_HomePC_times.png)
 
 Графика на ускорението от решение "Изчитане наведнъж" при четене на файл *500 MB*, машина "Home PC"
 (_фигура 7_):
 
-![фигура 7](.\img\ReadAllAtOnce_500_HomePC_sp.png)
+![фигура 7](./img/ReadAllAtOnce_500_HomePC_sp.png)
 
 ---
 Резултати от решение "Изчитане наведнъж" при четене на файл *1000 MB*, машина "Home PC" (_таблица 6_):
@@ -405,7 +405,7 @@ private static void runMultiThreaded(String data) {
 Графика на времето от решение "Изчитане наведнъж" при четене на файл *1000 MB*, машина "Home PC"
 (_фигура 8_):
 
-![фигура 8](.\img\ReadAllAtOnce_1000_HomePC_times.png)
+![фигура 8](./img/ReadAllAtOnce_1000_HomePC_times.png)
 
 
 ---
@@ -421,7 +421,7 @@ private static void runMultiThreaded(String data) {
 Графика на времето от решение "Изчитане наведнъж" при четене на файл *300 MB*, машина "t5600"
 (_фигура 9_):
 
-![фигура 9](.\img\ReadAllAtOnce_300_t5600_times.png)
+![фигура 9](./img/ReadAllAtOnce_300_t5600_times.png)
 
 ---
 Резултати от решение "Изчитане наведнъж" при четене на файл *500 MB*, машина "t5600" (_таблица 8_):
@@ -436,7 +436,7 @@ private static void runMultiThreaded(String data) {
 Графика на времето от решение "Изчитане наведнъж" при четене на файл *500 MB*, машина "t5600"
 (_фигура 10_):
 
-![фигура 10](.\img\ReadAllAtOnce_500_t5600_times.png)
+![фигура 10](./img/ReadAllAtOnce_500_t5600_times.png)
 
 
 ---
@@ -453,7 +453,7 @@ private static void runMultiThreaded(String data) {
 Графика на времето от решение "Изчитане наведнъж" при четене на файл *1000 MB*, машина "t5600"
 (_фигура 11_):
 
-![фигура 11](.\img\ReadAllAtOnce_1000_t5600_times.png)
+![фигура 11](./img/ReadAllAtOnce_1000_t5600_times.png)
 
 
 ### 4.4 Анализ на получените резултати
@@ -626,15 +626,15 @@ private static void runMultiThreaded(RandomAccessFile file) {
 
 Графика на времето от решение "Изчитане на парчета" при четене на файл *300 MB*, машина "Home PC" (_фигура 12_):
 
-![фигура 12](.\img\ReadChunks_300_HomePC_times.png)
+![фигура 12](./img/ReadChunks_300_HomePC_times.png)
 
 Графика на ускорението от решение "Изчитане на парчета" при четене на файл *300 MB*, машина "Home PC" (_фигура 13_):
 
-![фигура 13](.\img\ReadChunks_300_HomePC_sp.png)
+![фигура 13](./img/ReadChunks_300_HomePC_sp.png)
 
 Графика на ефективността от решение "Изчитане на парчета" при четене на файл *300 MB*, машина "Home PC" (_фигура 14_):
 
-![фигура 14](.\img\ReadChunks_300_HomePC_ep.png)
+![фигура 14](./img/ReadChunks_300_HomePC_ep.png)
 
 ---
 
@@ -725,11 +725,11 @@ private static void runMultiThreaded(RandomAccessFile file) {
 
 Графика на времето от решение "Изчитане на парчета" при четене на файл *500 MB*, машина "Home PC" (_фигура 15_):
 
-![фигура 15](.\img\ReadChunks_500_HomePC_times.png)
+![фигура 15](./img/ReadChunks_500_HomePC_times.png)
 
 Графика на ускорението от решение "Изчитане на парчета" при четене на файл *500 MB*, машина "Home PC" (_фигура 16_):
 
-![фигура 16](.\img\ReadChunks_500_HomePC_sp.png)
+![фигура 16](./img/ReadChunks_500_HomePC_sp.png)
 
 
 ---
@@ -759,15 +759,15 @@ private static void runMultiThreaded(RandomAccessFile file) {
 
 Графика на времето от решение "Изчитане на парчета" при четене на файл *1000 MB*, машина "Home PC" (_фигура 17_):
 
-![фигура 17](.\img\ReadChunks_1000_HomePC_times.png)
+![фигура 17](./img/ReadChunks_1000_HomePC_times.png)
 
 Графика на ускорението от решение "Изчитане на парчета" при четене на файл *1000 MB*, машина "Home PC" (_фигура 18_):
 
-![фигура 18](.\img\ReadChunks_1000_HomePC_sp.png)
+![фигура 18](./img/ReadChunks_1000_HomePC_sp.png)
 
 Графика на ефективността от решение "Изчитане на парчета" при четене на файл *1000 MB*, машина "Home PC" (_фигура 19_):
 
-![фигура 19](.\img\ReadChunks_1000_HomePC_ep.png)
+![фигура 19](./img/ReadChunks_1000_HomePC_ep.png)
 
 
 ---
@@ -788,7 +788,7 @@ private static void runMultiThreaded(RandomAccessFile file) {
 
 Графика на времето от решение "Изчитане на парчета" при четене на файл *10000 MB*, машина "Home PC" (_фигура 20_):
 
-![фигура 20](.\img\ReadChunks_10000_HomePC_times.png)
+![фигура 20](./img/ReadChunks_10000_HomePC_times.png)
 
 
 ---
@@ -826,7 +826,7 @@ private static void runMultiThreaded(RandomAccessFile file) {
 
 Графика на времето от решение "Изчитане на парчета" при четене на файл *300 MB*, машина "t5600" (_фигура 21_):
 
-![фигура 21](.\img\ReadChunks_300_t5600_times.png)
+![фигура 21](./img/ReadChunks_300_t5600_times.png)
 
 ---
 
@@ -852,7 +852,7 @@ private static void runMultiThreaded(RandomAccessFile file) {
 
 Графика на времето от решение "Изчитане на парчета" при четене на файл *1000 MB*, машина "t5600" (_фигура 22_):
 
-![фигура 22](.\img\ReadChunks_1000_t5600_times.png)
+![фигура 22](./img/ReadChunks_1000_t5600_times.png)
 
 
 ### 5.4 Анализ на получените резултати
